@@ -1,6 +1,6 @@
 # Stock Exchange Data Scraper
 
-This project leverages Python's BeautifulSoup library to scrape essential financial metrics from stock exchange websites. It efficiently gathers data such as trading prices, market capitalization, and trading volume from specified URLs and stores them in CSV format.
+This project leverages Python's BeautifulSoup and Selenium library to scrape essential financial metrics from stock exchange websites. It efficiently gathers data such as trading prices, market capitalization, and trading volume from specified URLs and stores them in CSV format.
 
 ## Project Overview
 
