@@ -86,13 +86,14 @@ class Scrap:
         self.complete_data.append(self.data.copy())
 
     def print_extracted_data(self):
-        for key, value in self.data.items():
-            print(f"{key}: {value}")
-        print()
+        for data in self.complete_data:
+            for key, value in data.items():
+                print(f"{key}: {value}")
+            print()
     
     def write_data_to_csv_file(self):
         df = pd.DataFrame(self.complete_data)
-        csv_file_name = f"data/extracted_data_{datetime.now().strftime('%Y-%m-%d')}.csv"
+        csv_file_name = f"{self.company_name}_{datetime.now().strftime('%Y-%m-%d')}.csv"
         df.to_csv(csv_file_name, index=False)
         print(f"Data has been written to {csv_file_name}")
 
