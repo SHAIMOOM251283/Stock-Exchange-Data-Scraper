@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 import pandas as pd
 from datetime import datetime 
 
-class Spider:
+class Scrap:
 
     def __init__(self):
         self.options = Options()
@@ -87,5 +87,5 @@ class Spider:
         self.close_the_browser()
 
 if __name__ == '__main__':
-    Scrap = Spider()
+    Scrap = Scrap()
     Scrap.run()
