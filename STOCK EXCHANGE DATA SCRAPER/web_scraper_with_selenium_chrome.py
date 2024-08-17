@@ -87,5 +87,5 @@ class Scrap:
         self.close_the_browser()
 
 if __name__ == '__main__':
-    Scrap = Scrap()
-    Scrap.run()
+    ExtractData = Scrap()
+    ExtractData.run()

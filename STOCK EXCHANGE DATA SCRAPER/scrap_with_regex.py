@@ -16,5 +16,5 @@ class Scrap:
             print(number)
 
 if __name__ == '__main__':
-    Extract = Scrap()
-    Extract.extract()
+    ExtractData = Scrap()
+    ExtractData.extract()
